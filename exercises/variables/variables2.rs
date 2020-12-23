@@ -3,8 +3,11 @@
 
 // I AM NOT DONE
 
+// use rand::prelude::*;
+
 fn main() {
-    let x;
+    let x = 10;
+//    let x = rand::thread.rng().gen_range(1,21);
     if x == 10 {
         println!("Ten!");
     } else {
